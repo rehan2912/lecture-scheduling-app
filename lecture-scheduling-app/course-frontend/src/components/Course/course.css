@@ -1,0 +1,37 @@
+.course-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+
+.course-info {
+    cursor: pointer;
+    text-align: center;
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.add-lecture-button {
+    margin-top: 20px;
+    background-color: #0077FF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-lecture-button:hover {
+    background-color: #0050B3;
+}
